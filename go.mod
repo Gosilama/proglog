@@ -4,6 +4,6 @@ go 1.15
 
 require (
 	github.com/gorilla/mux v1.8.0
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	github.com/stretchr/testify v1.8.1
+	google.golang.org/protobuf v1.28.1
 )
