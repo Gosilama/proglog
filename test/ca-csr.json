@@ -1,0 +1,16 @@
+{
+    "CN": "Proglog CA",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "US",
+            "L": "FA",
+            "ST": "Iowa",
+            "O": "Gp POC",
+            "OU": "CA Services"
+        }
+    ]
+}
