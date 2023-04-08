@@ -3,6 +3,7 @@ module github.com/gosilama/proglog
 go 1.15
 
 require (
+	github.com/cloudflare/cfssl v1.6.3 // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/kr/text v0.2.0 // indirect
 	github.com/stretchr/testify v1.8.1

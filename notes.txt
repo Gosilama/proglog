@@ -1,3 +1,8 @@
+GENERAL RULES:
+- use "go install" and sudo cp files to local bin for use of commands in Makefile. e.g.
+    > go install github.com/cloudflare/cfssl/cmd/cfssl
+    > sudo cp ~/go/bin/cfssl /usr/local/bin/cfssl
+
 ISSUE
 `protoc-gen-go: program not found or is not executable`
 FIX
@@ -15,3 +20,5 @@ ISSUE
 FIX
 go get google.golang.org/grpc/cmd/protoc-gen-go-grpc
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc
+
+
