@@ -3,6 +3,9 @@ GENERAL RULES:
     > go install github.com/cloudflare/cfssl/cmd/cfssl
     > sudo cp ~/go/bin/cfssl /usr/local/bin/cfssl
 
+- to run tests recursively
+    > go test -v ./...
+
 ISSUE
 `protoc-gen-go: program not found or is not executable`
 FIX
