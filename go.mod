@@ -10,6 +10,8 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/stretchr/testify v1.8.1
 	github.com/tysonmote/gommap v0.0.2
+	go.opencensus.io v0.24.0 // indirect
+	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
 	golang.org/x/oauth2 v0.0.0-20210427180440-81ed05c6b58c // indirect
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
